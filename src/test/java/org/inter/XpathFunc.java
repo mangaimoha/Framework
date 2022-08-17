@@ -41,6 +41,7 @@ public class XpathFunc {
 			System.out.println(prod.getText());		
 			
 		}
+		System.out.println(" new code added");
 		
 		List<WebElement> fAssured = driver.findElements(By.xpath("//div[@class='_13J9qT']"));
 		System.out.println(fAssured.size());
